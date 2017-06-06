@@ -1,0 +1,25 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.Outer{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.Outer div{
+	height: 400px;
+	width: 400px;
+	padding: 5px;
+	background-color: deepskyblue;
+	text-transform: uppercase;
+	text-align: center;
+}
+h4{
+	margin-top: 180px;
+}
+.Outer:hover div{
+	background-color: black;
+	border-radius: 200px;
+	color: deepskyblue;
+}
